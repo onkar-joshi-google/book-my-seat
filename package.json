@@ -1,0 +1,38 @@
+{
+  "name": "book-my-seat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "jest"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sinon": "^7.3.2",
+    "webpack": "^4.32.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.2",
+    "jest-cli": "^24.8.0",
+    "react-test-renderer": "^16.8.6",
+    "webpack-cli": "^3.3.2"
+  }
+}
